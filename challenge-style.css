@@ -8,6 +8,7 @@ article {
   font-family: sans-serif;
   width: 825px;
   margin: 40px auto;
+  position: relative;
 }
 
 .heading {
@@ -23,6 +24,18 @@ article {
 
 .price {
   font-size: 22px;
+}
+
+.sale {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: red;
+  color: #fff;
+  display: inline-block;
+  padding: 2px 5px;
+  position: absolute;
+  top: -15px;
+  left: -25px;
 }
 
 .shipping {
@@ -46,6 +59,38 @@ article {
 .more-info:active {
   text-decoration: none;
   cursor: pointer;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.box-1 {
+  background-color: #000;
+}
+
+.box-2 {
+  background-color: blue;
+}
+
+.box-3 {
+  background-color: red;
+}
+
+.box-4 {
+  background-color: burlywood;
+}
+
+.box-5 {
+  background-color: lightgreen;
+}
+
+.box-6 {
+  background-color: brown;
 }
 
 .details-title {

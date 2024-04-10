@@ -1,12 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 article {
   border: 4px solid #000;
   font-family: sans-serif;
+  width: 825px;
+  margin: 40px auto;
 }
 
 .heading {
   text-align: center;
   text-transform: uppercase;
   background-color: #f7f7f7;
+  padding: 18px;
+}
+
+.shoe-img {
+  margin-bottom: 5px;
 }
 
 .price {
@@ -18,6 +30,11 @@ article {
   color: #777;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.description {
+  margin-bottom: 8px;
 }
 
 .more-info:link,
@@ -34,10 +51,21 @@ article {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 
 .product-details {
   list-style: square;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+.product-details li {
+  margin-bottom: 8px;
+}
+.product-details li:last-child {
+  margin-bottom: 0;
 }
 
 .btn {
@@ -46,6 +74,9 @@ article {
   background-color: #000;
   color: #fff;
   border: none;
+  width: 100%;
+  padding: 18px;
+  border-top: 4px solid #000;
 }
 
 .btn:hover {

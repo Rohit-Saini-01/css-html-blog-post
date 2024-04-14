@@ -134,7 +134,8 @@ article {
 }
 
 /* FLOATS */
-img {
+
+/* img {
   float: left;
 }
 
@@ -172,4 +173,4 @@ img {
 
 .product-details {
   margin: 0;
-}
+} */

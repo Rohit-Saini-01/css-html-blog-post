@@ -68,7 +68,7 @@ article {
   width: 20px;
   height: 20px;
   margin-right: 2px;
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 24px;
 }
 
@@ -174,3 +174,44 @@ article {
 .product-details {
   margin: 0;
 } */
+
+/* FLEXBOX */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.color-box {
+  display: flex;
+  gap: 5px;
+}
+
+.shoe-img {
+  margin-bottom: 0;
+}
+
+.product-details {
+  margin-left: 0;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+
+.shipping {
+  margin-bottom: 0;
+}
+
+.container-1 {
+  flex: 1;
+}
+
+.container-2 {
+  flex: 1;
+}

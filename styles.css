@@ -222,7 +222,8 @@ footer {
 } */
 
 /* FLOATS */
-.author-img {
+
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
@@ -241,9 +242,9 @@ nav {
   float: right;
 }
 
-/* .clear {
+.clear {
   clear: both;
-} */
+}
 
 .clearfix::after {
   content: "";
@@ -263,4 +264,6 @@ aside {
 
 footer {
   clear: both;
-}
+} */
+
+/* FLEXBOX */

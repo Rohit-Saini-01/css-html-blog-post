@@ -41,8 +41,13 @@
 
         /* FLEXBOX */
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         align-items: center;
+        gap: 30px;
+      }
+
+      .el {
+        /* margin-right: 30px; */
       }
       .el--1 {
         align-self: flex-start;
@@ -50,11 +55,11 @@
 
       .el--5 {
         align-self: stretch;
-        order: -1;
+        order: 1;
       }
 
       .el--6 {
-        order: 1;
+        order: -1;
       }
     </style>
   </head>
